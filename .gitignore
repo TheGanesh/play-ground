@@ -1,0 +1,4 @@
+*.md*
+.idea
+play-ground.iml
+*.log
