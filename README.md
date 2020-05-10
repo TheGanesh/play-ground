@@ -15,7 +15,9 @@ The following are commonly used cassandra commands
 Execute cql scripts in `./play-ground/src/main/resources/schema.cql` sequentially, this is a one time activity.  
 #### To Connect to container
 Typically done for debugging purposes
-* `docker exec -it my_cassandra_1 bash`    
+* `docker exec -it my_cassandra_1 bash` 
+* `docker exec -it my_cassandra_1 nodetool status`
+   
 ## Running in local
 ```
 mvn clean install spring-boot:run
